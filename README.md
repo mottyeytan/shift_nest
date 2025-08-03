@@ -2,21 +2,6 @@
 What is it?
 A shift management system for soldiers and commanders. Allows creating, updating and deleting shifts and assignments.
 
-Installation
-npm install
-Running
-# Development
-npm run start:dev
-
-# Production
-npm run start:prod
-Testing
-# Unit tests
-npm run test
-
-# E2E tests
-npm run test:e2e
-API Endpoints
 Shifts
 POST /shifts - Create new shift (commanders only)
 PUT /shifts/:id - Update shift (commanders only)
